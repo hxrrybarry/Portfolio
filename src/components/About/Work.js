@@ -34,11 +34,13 @@ function Work() {
             <br />
             <br />
             <br />
+            <br />    
             <br />
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              A tad more on ERP..
-            </h1>
-            <ERPCard />
+            <Tilt>
+              <img src={epicorLogo} alt="about" className="img-fluid" />
+            </Tilt>
+            <br />
+            <br />
             <br />
             <br />
             <br />
@@ -58,33 +60,10 @@ function Work() {
             <Tilt>
               <img src={ghaLogo} alt="about" className="img-fluid"/>
             </Tilt>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <Tilt>
-              <img src={epicorLogo} alt="about" className="img-fluid" />
-            </Tilt>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+              A tad more on ERP..
+            </h1>
+            <ERPCard />
             <Tilt>
               <img src={ghaAward} alt="about" className="img-fluid" />
             </Tilt>

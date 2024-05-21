@@ -2,11 +2,8 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
-import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+import { GiGearHammer } from "react-icons/gi";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
@@ -77,6 +74,19 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/skills"
+                onClick={() => updateExpanded(false)}
+              >
+                <GiGearHammer
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Skills
               </Nav.Link>
             </Nav.Item>
 

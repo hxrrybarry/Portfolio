@@ -284,6 +284,12 @@ button:focus {
   color: #ff6969;
 }
 
+.skill-card-img {
+  max-width: 200px;
+  max-height: 240px;
+  align-self: center;
+}
+
 .Typewriter__wrapper {
   font-size: 2.2em !important;
   color: #70aeff !important;

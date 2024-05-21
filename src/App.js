@@ -5,6 +5,7 @@ import Home from "./components/Home/Home";
 import Work from "./components/About/Work";
 import Projects from "./components/Projects/Projects";
 import Resume from "./components/Resume/ResumeNew";
+import Skills from "./components/Skills/Skills";
 import {
   BrowserRouter as Router,
   Route,
@@ -37,7 +38,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/work" element={<Work />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path ="/skills" element={<Skills />} />
+          <Route path="/resume" element={<Resume />} />       
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
       </div>

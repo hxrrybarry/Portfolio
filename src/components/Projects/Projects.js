@@ -16,7 +16,7 @@ function Projects() {
           My <strong className="main-name">projects</strong>..
         </h1>
         <p style={{ color: "white" }}>
-          Displayed are my <strong className="main-name">favourite</strong> projects.
+          Displayed are my <strong className="main-name">favourite</strong> personal projects
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
