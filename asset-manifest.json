@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.3ae7b6ae.css",
+    "main.css": "/static/css/main.f02cdb66.css",
     "main.js": "/static/js/main.b89832d3.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
@@ -16,13 +16,13 @@
     "static/media/epicor_logo.png": "/static/media/epicor_logo.91c27160f42484d4769d.png",
     "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/index.html",
-    "main.3ae7b6ae.css.map": "/static/css/main.3ae7b6ae.css.map",
+    "main.f02cdb66.css.map": "/static/css/main.f02cdb66.css.map",
     "main.b89832d3.js.map": "/static/js/main.b89832d3.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ae7b6ae.css",
+    "static/css/main.f02cdb66.css",
     "static/js/main.b89832d3.js"
   ]
 }
