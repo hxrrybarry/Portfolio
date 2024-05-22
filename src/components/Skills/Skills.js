@@ -7,6 +7,8 @@ import python from "./python_logo.png";
 import sql from "./sql_logo.png";
 import epicor from "./epicor_e.jpg";
 import query from "./query_icon.png";
+import report from "./report_ico.png";
+import appStudio from "./application_studio-ico.png";
 
 function Skills() {
   return (
@@ -62,6 +64,20 @@ function Skills() {
             <SkillCard
               imgPath={query}
               description="One of the main features within Epicor is the ability to write BAQs, or: Business Activity Queries. These are essentially a more powerful way to interact with your database via SQL. Whilst you can do basic things like merely querying, you can also attach functionality to it via the usage of a BPM."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <SkillCard
+              imgPath={report}
+              description="As you can imagine, a main business ideology is to generate and send reports to customers. This involves pulling data from the system using a language or something akin to SQL. This is a critical aspect of your business."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <SkillCard
+              imgPath={appStudio}
+              description="One of the main features within Epicor is the ability to customize and create your own screens with their own designated behavior. After a year of doing so, I have become fluent with Application Studio and I am now able to devise highly complex behavior."
             />
           </Col>
 
