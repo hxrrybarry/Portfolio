@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://hxrrybarry.github.io/portfolio/",
+  "homepage": "https://hxrrybarry.github.io/Portfolio/",
   "dependencies": {
     "@babel/runtime": "^7.24.5",
     "@fontsource/roboto": "^5.0.13",
