@@ -51,6 +51,7 @@ function Skills() {
         <hr className='main-name'/>
         <hr className='main-name'/>
         
+        <motion.div initial={{ opacity: 0 }} style={{ y: 100 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.2}}>
         <h2><strong className="main-name">ERP</strong> Systems</h2>
         <p style={{ color: "white" }}>
           Here are some of my <strong className="main-name">specific</strong> skills within ERP
@@ -87,7 +88,7 @@ function Skills() {
           </Col>
 
         </Row>
-
+        </motion.div>
       </Container>
     </Container>
   );
