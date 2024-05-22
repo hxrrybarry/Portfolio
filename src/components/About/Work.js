@@ -8,6 +8,7 @@ import epicorLogo from "../../Assets/epicor_logo.png";
 import ghaAward from "../../Assets/gha_award.jpeg";
 import ERPCard from "./ERPCard";
 import RewardCard from "./RewardCard";
+import { motion } from "framer-motion";
 
 function Work() {
   return (
@@ -23,12 +24,15 @@ function Work() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+            <motion.div initial={{ opacity: 0 }} style={{ y: 100 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5}}>
+            <h1 style={{ fontSize: "2.1em"}}>
               <br />
               <br />
               What is my work?
             </h1>
-            <Aboutcard />
+            <Aboutcard />     
+            <hr className="main-name" />
+            </motion.div>
             <br />
             <br />
             <br />
@@ -36,9 +40,11 @@ function Work() {
             <br />
             <br />    
             <br />
+            <motion.div initial={{ opacity: 0 }} style={{ y: 100 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.3}}>
             <Tilt>
               <img src={epicorLogo} alt="about" className="img-fluid" />
             </Tilt>
+            </motion.div>
             <br />
             <br />
             <br />
@@ -47,7 +53,7 @@ function Work() {
             <br />
             <br />
             <br />
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+            <h1 style={{ fontSize: "2.1em" }}>
               <strong className="main-name">Huzzah!</strong>
               <RewardCard />
             </h1>
@@ -57,13 +63,18 @@ function Work() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
+            <motion.div initial={{ opacity: 0 }} style={{ y: 100 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5}}>
             <Tilt>
               <img src={ghaLogo} alt="about" className="img-fluid"/>
             </Tilt>
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+            </motion.div>
+            <motion.div initial={{ opacity: 0 }} style={{ y: 100 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.3}}>
+            <h1 style={{ fontSize: "2.1em"}}>
               A tad more on ERP..
             </h1>
             <ERPCard />
+            <hr className="main-name" />
+            </motion.div>
             <Tilt>
               <img src={ghaAward} alt="about" className="img-fluid" />
             </Tilt>

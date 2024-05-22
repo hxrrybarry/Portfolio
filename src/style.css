@@ -22,6 +22,12 @@ button:focus {
   box-shadow: none !important;
 }
 
+.snookerImages {
+  max-height: 456px !important;
+  max-width: 304px !important;
+  flex-direction: row;
+}
+
 /* --------- */
 /*  Preloader */
 /* --------- */

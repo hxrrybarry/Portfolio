@@ -6,6 +6,7 @@ import pulsate from "../../Assets/Projects/pulsate_image.png";
 import terminalPhysics from "../../Assets/Projects/terminal-physics_image.png";
 import jumperDates from "../../Assets/Projects/jumperdatesico.png";
 import lexi from "../../Assets/Projects/lexi.jpeg"
+import { motion } from "framer-motion";
 
 function Projects() {
   return (
@@ -20,6 +21,7 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
+          <motion.div initial={{ opacity: 0 }} style={{ y: 100 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5}}>
             <ProjectCard
               imgPath={pulsate}
               title="PULSaTE"
@@ -28,9 +30,11 @@ function Projects() {
               version="v1.3.1-beta"
               language="Language: C#"
             />
+            </motion.div>
           </Col>
 
           <Col md={4} className="project-card">
+          <motion.div initial={{ opacity: 0 }} style={{ y: 100 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.2}}>
             <ProjectCard
               imgPath={terminalPhysics}
               title="Terminal Physics"
@@ -39,9 +43,11 @@ function Projects() {
               version="v1.1.1-alpha"
               language="Language: C#"
             />
+            </motion.div>
           </Col>
 
           <Col md={4} className="project-card">
+          <motion.div initial={{ opacity: 0 }} style={{ y: 100 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.4}}>
             <ProjectCard
               imgPath={jumperDates}
               title="Jumper Dates"
@@ -51,6 +57,7 @@ function Projects() {
               version="v1.0.0-release"
               language="Languages: C#, Flutter"
             />
+            </motion.div>
           </Col>
 
           <Col md={4} className="project-card">

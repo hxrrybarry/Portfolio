@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 import { GiGearHammer } from "react-icons/gi";
+import { RiBilliardsLine } from "react-icons/ri";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
@@ -87,6 +88,19 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Skills
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/hobbies"
+                onClick={() => updateExpanded(false)}
+              >
+                <RiBilliardsLine
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Hobbies
               </Nav.Link>
             </Nav.Item>
 

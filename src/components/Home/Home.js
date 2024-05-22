@@ -4,6 +4,7 @@ import homeLogo from "../../Assets/logo.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import { motion } from "framer-motion";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <Container fluid className="about-section" id="home">
         <Particle />
         <Container className="home-content">
+        <motion.div initial={{ opacity: 0 }} style={{ y: 100 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5}}>
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
@@ -36,7 +38,8 @@ function Home() {
               />
             </Col>
           </Row>
-        </Container>
+          </motion.div>
+        </Container> 
       </Container>
       <Home2 />
     </section>

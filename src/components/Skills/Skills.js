@@ -9,6 +9,7 @@ import epicor from "./epicor_e.jpg";
 import query from "./query_icon.png";
 import report from "./report_ico.png";
 import appStudio from "./application_studio-ico.png";
+import { motion } from "framer-motion";
 
 function Skills() {
   return (
@@ -21,6 +22,7 @@ function Skills() {
         <p style={{ color: "white" }}>
           Here are some of my skills that I believe to be <strong className="main-name">strong</strong>
         </p>
+        <motion.div initial={{ opacity: 0 }} style={{ y: 100 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5}}>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <h2>Languages</h2>
 
@@ -45,7 +47,10 @@ function Skills() {
             />
           </Col> 
         </Row>
-
+        </motion.div>
+        <hr className='main-name'/>
+        <hr className='main-name'/>
+        
         <h2><strong className="main-name">ERP</strong> Systems</h2>
         <p style={{ color: "white" }}>
           Here are some of my <strong className="main-name">specific</strong> skills within ERP

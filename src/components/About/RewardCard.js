@@ -7,7 +7,7 @@ function RewardCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Rather recently, GHA Solutions were awarded second place for "Employee of the Year" for companies with under fifty employees from Burnley College!
+            Rather recently, GHA Solutions won highly commended for "Employee of the Year" for companies with under fifty employees from Burnley College!
             <br />
             <br />
             We all had a great night here, with a provided three course meal and bar. 
