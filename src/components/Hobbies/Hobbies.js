@@ -87,19 +87,19 @@ function Hobbies() {
         <h1>PROGRAMMING</h1>
         <hr className="main-name" />
         <Col>
-                <Tilt>
-                <img src={csharp} className="snookerImages" alt="avatar" />
-                </Tilt>
-            </Col>
-            <Col>
-                <Tilt>
-                <img src={python} className="snookerImages" alt="avatar" />
-                </Tilt>
-            </Col>
-            <Col>
-                <Tilt>
-                <img src={java} className="snookerImages" alt="avatar" />
-                </Tilt>
+          <Tilt>
+            <img src={csharp} className="snookerImages" alt="avatar" />
+          </Tilt>
+        </Col>
+        <Col>
+          <Tilt>
+            <img src={python} className="snookerImages" alt="avatar" />
+          </Tilt>
+        </Col>
+        <Col>
+          <Tilt>
+          <img src={java} className="snookerImages" alt="avatar" />
+          </Tilt>
         </Col>
         </Row>
         <br />
