@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.faf5d41c.css",
-    "main.js": "/Portfolio/static/js/main.737dd67b.js",
+    "main.css": "/Portfolio/static/css/main.5c2d2409.css",
+    "main.js": "/Portfolio/static/js/main.ef786b88.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/jumperdatesico.png": "/Portfolio/static/media/jumperdatesico.2a536150cb6ee6863f89.png",
@@ -29,13 +29,13 @@
     "static/media/epicor_logo.png": "/Portfolio/static/media/epicor_logo.91c27160f42484d4769d.png",
     "static/media/pre.svg": "/Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/Portfolio/index.html",
-    "main.faf5d41c.css.map": "/Portfolio/static/css/main.faf5d41c.css.map",
-    "main.737dd67b.js.map": "/Portfolio/static/js/main.737dd67b.js.map",
+    "main.5c2d2409.css.map": "/Portfolio/static/css/main.5c2d2409.css.map",
+    "main.ef786b88.js.map": "/Portfolio/static/js/main.ef786b88.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.faf5d41c.css",
-    "static/js/main.737dd67b.js"
+    "static/css/main.5c2d2409.css",
+    "static/js/main.ef786b88.js"
   ]
 }
