@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 import { motion } from "framer-motion";
+import GitHubCalendar from 'react-github-calendar';
 
 function Home() {
   return (
@@ -39,7 +40,18 @@ function Home() {
             </Col>
           </Row>
           </motion.div>
-        </Container> 
+        </Container>
+        <motion.div initial={{ opacity: 0 }} style={{ y: 100 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.2}}>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={5} className="project-card">
+          <h1 className="project-heading">
+            MY <strong className="main-name">GITHUB</strong> CONTRIBUTIONS
+          </h1>
+          <hr className="main-name" />
+          <GitHubCalendar username="hxrrybarry"  style={{color:"white"}} />
+        </Col>
+      </Row>
+      </motion.div>
       </Container>
       <Home2 />
     </section>

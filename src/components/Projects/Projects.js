@@ -1,5 +1,4 @@
 import React from "react";
-import GitHubCalendar from 'react-github-calendar';
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
@@ -73,15 +72,6 @@ function Projects() {
           </Col>
         </Row>   
       </Container>
-      <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={5} className="project-card">
-          <h1 className="project-heading">
-          MY <strong className="main-name">GITHUB</strong> CONTRIBUTIONS
-        </h1>
-        <hr className="main-name" />
-            <GitHubCalendar username="hxrrybarry"  style={{color:"white"}} />
-          </Col>
-        </Row>
     </Container>
   );
 }

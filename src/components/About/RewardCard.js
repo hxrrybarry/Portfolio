@@ -10,7 +10,7 @@ function RewardCard() {
             Rather recently, GHA Solutions won highly commended for "Employee of the Year" for companies with under fifty employees from Burnley College!
             <br />
             <br />
-            We all had a great night here, with a provided three course meal and bar. 
+            We all had a great night here at the football club, with a provided three course meal and bar. 
             <br />
             <br />
             Here you can see our Development Manager, Peter Roden, and two of my co-workers Ashton Dunderdale and Bartłomiej Wojda all looking very proud of ourselves!
