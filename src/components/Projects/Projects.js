@@ -29,7 +29,7 @@ function Projects() {
               description="Poly Use Linked Storage and Text Editor. This allows you to group files into a single file called a glob. These files are compressed, and can be encrypted with a password. It can do other things such as: navigate your storage, view and edit text files (with built-in JSON syntax highlighting!), view images, play music and download YouTube videos. All within a terminal based interface."
               ghLink="https://github.com/hxrrybarry/globulator-wpf"
               version="v1.3.1-beta"
-              language="Language: C#"
+              language="Languages: C#, XAML"
             />
             </motion.div>
           </Col>
