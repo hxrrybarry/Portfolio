@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.5c2d2409.css",
-    "main.js": "/Portfolio/static/js/main.ca7707fc.js",
+    "main.js": "/Portfolio/static/js/main.84bdd2ce.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/jumperdatesico.png": "/Portfolio/static/media/jumperdatesico.2a536150cb6ee6863f89.png",
@@ -12,10 +12,10 @@
     "static/media/gha_logo.png": "/Portfolio/static/media/gha_logo.7e22212ac24562d4a6d1.png",
     "static/media/me.jpg": "/Portfolio/static/media/me.1f2e9195b3b65fb5c885.jpg",
     "static/media/csharp_logo.png": "/Portfolio/static/media/csharp_logo.3137789c01ee1c3131f3.png",
+    "static/media/report_ico.png": "/Portfolio/static/media/report_ico.429901a167da3cbb6523.png",
     "static/media/python_logo.png": "/Portfolio/static/media/python_logo.52d7bb207f9868b90e39.png",
     "static/media/minecraft_ico.png": "/Portfolio/static/media/minecraft_ico.6c59b6b89fa11f232fbe.png",
     "static/media/lexi.jpeg": "/Portfolio/static/media/lexi.5e8b544860ec6dcbabcc.jpeg",
-    "static/media/report_ico.png": "/Portfolio/static/media/report_ico.cda6c33b7ac5841ef03f.png",
     "static/media/terminal-physics_image.png": "/Portfolio/static/media/terminal-physics_image.17408df9807b762c4150.png",
     "static/media/cv.pdf": "/Portfolio/static/media/cv.26c95e18901a492509ba.pdf",
     "static/media/snooker_3.jpg": "/Portfolio/static/media/snooker_3.1e46f446230510fbea40.jpg",
@@ -30,12 +30,12 @@
     "static/media/pre.svg": "/Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/Portfolio/index.html",
     "main.5c2d2409.css.map": "/Portfolio/static/css/main.5c2d2409.css.map",
-    "main.ca7707fc.js.map": "/Portfolio/static/js/main.ca7707fc.js.map",
+    "main.84bdd2ce.js.map": "/Portfolio/static/js/main.84bdd2ce.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c2d2409.css",
-    "static/js/main.ca7707fc.js"
+    "static/js/main.84bdd2ce.js"
   ]
 }
