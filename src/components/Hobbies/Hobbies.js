@@ -78,6 +78,8 @@ function Hobbies() {
         <br />
         <p>Like many, one of my favourite hobbies is gaming. My current favourite games are Minecraft for the sandbox "DIY" style, Garry's Mod for the sheer creative aspect and modability and Outer Wilds for the story and gameplay.</p>
         <br />
+        <p>In my times of playing Minecraft, I tended to get stuck in with designing redstone machines and commands. My favourite projects were developing the Rick & Morty portal gun with commands, and designing a 4-bit adder circuit with redsone.</p>
+        <br />
         <p>I don't play video games as much as I previously once did, but when I do: I ensure that it is worthwhile.</p>
         </motion.div>
         <hr className="main-name" />
