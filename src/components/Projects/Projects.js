@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
 import pulsate from "../../Assets/Projects/pulsate_image.png";
 import terminalPhysics from "../../Assets/Projects/terminal-physics_image.png";
 import jumperDates from "../../Assets/Projects/jumperdatesico.png";
@@ -11,7 +10,6 @@ import { motion } from "framer-motion";
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
       <Container>
         <h1 className="project-heading">
           My <strong className="main-name">projects</strong>..

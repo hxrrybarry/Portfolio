@@ -11,7 +11,6 @@ function Home() {
   return (
     <section>
       <Container fluid className="about-section" id="home">
-        <Particle />
         <Container className="home-content">
         <motion.div initial={{ opacity: 0 }} style={{ y: 100 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5}}>
           <Row>

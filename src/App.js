@@ -7,6 +7,7 @@ import Projects from "./components/Projects/Projects";
 import Resume from "./components/Resume/ResumeNew";
 import Hobbies from "./components/Hobbies/Hobbies";
 import Skills from "./components/Skills/Skills";
+import Particle from "./components/Particle";
 import {
   BrowserRouter as Router,
   Route,
@@ -33,6 +34,7 @@ function App() {
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
+        <Particle />
         <Navbar />
         <ScrollToTop />
         <Routes>

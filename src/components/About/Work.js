@@ -13,7 +13,6 @@ import { motion } from "framer-motion";
 function Work() {
   return (
     <Container fluid className="about-section">
-      <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col

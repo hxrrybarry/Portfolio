@@ -1,7 +1,6 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
 import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
 import snookerOne from "./snooker_1.jpg";
 import snookerTwo from "./snooker_2.jpg";
 import snookerThree from "./snooker_3.jpg";
@@ -17,7 +16,6 @@ import { motion } from "framer-motion";
 function Hobbies() {
   return (
     <Container fluid className="about-section">
-      <Particle />
       <Container>
         <h1 className="project-heading">
           My <strong className="main-name">hobbies</strong>..

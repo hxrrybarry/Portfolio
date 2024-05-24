@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
 import SkillCard from "./SkillCard";
 import csharp from "./csharp_logo.png";
 import python from "./python_logo.png";
@@ -14,7 +13,6 @@ import { motion } from "framer-motion";
 function Skills() {
   return (
     <Container fluid className="about-section">
-      <Particle />
       <Container>
         <h1 className="project-heading">
           My <strong className="main-name">skills</strong>..
